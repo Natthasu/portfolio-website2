@@ -1,0 +1,99 @@
+/portfolio
+  /css
+    - styles.css
+  /js
+    - script.js
+  /images
+    - (images for gallery, profile, etc.)
+  index.html
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#bio">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Personal Bio Section -->
+  <section id="bio">
+    <div class="bio-container">
+      <img src="images/your-profile.jpg" alt="Your Profile Picture">
+      <div class="bio-text">
+        <h1>Your Name</h1>
+        <p>Your background story, professional interests, and what motivates you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Showcase -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <span>HTML</span>
+        <div class="skill-bar" style="width: 90%;"></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="skill-bar" style="width: 85%;"></div>
+      </div>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <!-- Project Gallery -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <div class="project-item">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>Detailed description of the project with its purpose, tech stack, and achievements.</p>
+        <a href="https://link-to-project.com" target="_blank">View Project</a>
+      </div>
+      <!-- Add more projects -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Reach out for opportunities or inquiries:</p>
+    <form action="https://formspree.io/your-email" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-media">
+      <a href="https://twitter.com/your-profile" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <!-- Add more social links -->
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<section id="bio" class="animate__animated animate__fadeIn">
+  <div class="bio-container">
+    <!-- เนื้อหาของ Bio -->
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
